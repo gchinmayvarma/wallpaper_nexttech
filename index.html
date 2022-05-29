@@ -11,15 +11,30 @@
 
 <body>
     <div id="clock">
-        <span id="am_pm"></span>
         <span id="time_h"></span><span class="time_dh">:</span>
         <span id="time_m"></span>
-        <span id="time_s"></span>
+        <span id="am_pm__time_s">
+            <span id="time_s"></span>
+            <span id="am_pm"></span>
+        </span>
+        <span id="date"></span>
     </div>
-    <div id="particles">
-        
+    <div class="logotext">
+        <div class="stack" style="--stacks: 3;">
+            <span style="--index: 0;">Next Tech Lab</span>
+            <span style="--index: 1;">Next Tech Lab</span>
+            <span style="--index: 2;">Next Tech Lab</span>
+        </div>
     </div>
-    <script src="script.js"></script>
+    <div id="particles_image"></div>
+    <div id="particles"></div>
+    <div id="gibs"></div>
+    <div id="hider"></div>
+    <!-- <div class="particle"></div> -->
+    <script src="script_main.js"></script>
+    <script src="script_particles.js"></script>
+    <script src="script_particles_image.js"></script>
+    <script src="script_gibs.js"></script>
 </body>
 
 </html>
