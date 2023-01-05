@@ -3,7 +3,6 @@ let particles = document.getElementsByClassName("particle");
 let particle_count = 0;
 
 function particle_make() {
-    setTimeout(particle_make, random(200, 1000));
     if (particle_count > 200) return;
     let particle = document.createElement("div");
     particle.className = "particle";
@@ -25,12 +24,18 @@ function particle_make() {
     particle.custom.color_b = 255;
     particle.custom.color_a = random(0, 1);
     particle.custom.color_da = random(1, 5) / 100;
+    if(random(0,1)<0.3) 
+        particle.custom.radius = random(0,10);
+    else particle.custom.radius = random(0,5);
+    particle.style.width = particle.style.height = particle.custom.radius+"px";
     div_particles.appendChild(particle);
     particle_count++;
 }
 
 function particle_make_more() {
-    for (let i = 0; i < 2; i++) {
+    setTimeout(particle_make_more, random(0, 500));
+    let l = random(1,25);
+    for (let i = 0; i < l; i++) {
         particle_make();
     }
 }
@@ -58,5 +63,5 @@ function particles_work() {
 setInterval(particles_work, 1000 / 60);
 // setInterval(particle_make_more, 10)
 for (let i = 0; i < 100 * 2; i++) {
-    particle_make();
+    particle_make_more();
 }
