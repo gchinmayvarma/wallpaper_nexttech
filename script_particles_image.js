@@ -23,6 +23,7 @@ function particle_image_make() {
     particle.custom.ds = 0;
     particle.custom.dds = 0;
     particle.custom.ddds = random(0, 0.0000005);
+    particle.custom.maxs = random(1,10)/10;
     particle.style.transform = "scale(0)";
     div_particles_image.appendChild(particle);
     particle_count_image++;
@@ -46,9 +47,9 @@ function particles_image_work() {
         particles_image[i].custom.s += particles_image[i].custom.ds;
         particles_image[i].custom.ds += particles_image[i].custom.dds;
         particles_image[i].custom.dds += particles_image[i].custom.ddds;
-        if (particles_image[i].custom.s > 1) {
-            particles_image[i].custom.s = 1;
+        if (particles_image[i].custom.s > particles_image[i].custom.maxs) {
             particles_image[i].custom.ds = particles_image[i].custom.dds = 0;
+            particles_image[i].custom.s = particles_image[i].custom.maxs;
         }
         particles_image[i].style.left = particles_image[i].custom.x + "%";
         particles_image[i].style.top = particles_image[i].custom.y + "%";
