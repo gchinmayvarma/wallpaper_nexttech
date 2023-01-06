@@ -3,7 +3,7 @@ let particles = document.getElementsByClassName("particle");
 let particle_count = 0;
 
 function particle_make() {
-    setTimeout(particle_make, random(200, 1000));
+    setTimeout(particle_make, random(100, 500));
     if (particle_count > 200) return;
     let particle = document.createElement("div");
     particle.className = "particle";
@@ -25,6 +25,10 @@ function particle_make() {
     particle.custom.color_b = 255;
     particle.custom.color_a = random(0, 1);
     particle.custom.color_da = random(1, 5) / 100;
+    particle.custom.size = random(1, 15);
+    particle.style.width = particle.custom.size + "px";
+    particle.style.height = particle.custom.size + "px";
+
     div_particles.appendChild(particle);
     particle_count++;
 }

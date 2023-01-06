@@ -97,8 +97,8 @@ body {
     /* opacity: 0.5; */
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.235);
-    width: 5px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
 }
 
 .particle_image {
