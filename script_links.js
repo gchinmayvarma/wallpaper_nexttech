@@ -1,5 +1,6 @@
 let links = {
     "local": "http://localhost:5500/",
+    "github": "https://github.com/gchinmayvarma?tab=repositories&type=source",
     "Moodle": "https://wsdmoodle.waseda.jp/auth/saml2/login.php?wants=https%3A%2F%2Fwsdmoodle.waseda.jp%2F&idp=fcc52c5d2e034b1803ea1932ae2678b0&passive=off",
     "chatgpt": "https://chat.openai.com/",
     "youtube": "https://www.youtube.com/feed/subscriptions",
