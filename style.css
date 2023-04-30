@@ -233,3 +233,28 @@ body {
         transform: none;
     }
 }
+
+a {
+    color: rgb(177, 177, 177);
+    font-size: 32px;
+    font-family: 'Inconsolata', monospace;
+    margin: 6px 12px;
+    text-decoration: underline rgb(94, 94, 94);
+
+}
+
+a:hover {
+    color: rgb(255, 105, 105);
+    text-decoration: underline rgb(112, 0, 0);
+}
+
+#div_link {
+    margin: 8px 0px;
+    position: absolute;
+    /* ensure that the text within this div is inside a flexbox covering maximum of 80% of the screen */
+    width: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
