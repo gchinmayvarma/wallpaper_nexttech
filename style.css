@@ -252,7 +252,7 @@ a:hover {
     margin: 8px 0px;
     position: absolute;
     /* ensure that the text within this div is inside a flexbox covering maximum of 80% of the screen */
-    width: 85vw;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
 
