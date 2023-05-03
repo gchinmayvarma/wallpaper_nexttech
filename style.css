@@ -239,7 +239,7 @@ a {
     font-size: 32px;
     font-family: 'Inconsolata', monospace;
     margin: 6px 12px;
-    text-decoration: underline rgb(94, 94, 94);
+    text-decoration: underline rgba(122, 122, 122, 0.39);
 
 }
 

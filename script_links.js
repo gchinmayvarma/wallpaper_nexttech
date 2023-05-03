@@ -7,13 +7,13 @@ let links = {
     "paint": "https://gchinmayvarma.github.io/sketchoff/",
     "cgpt": "https://chat.openai.com/",
     "linkedin": "https://www.linkedin.com/feed/",
+    "airt": "https://lexica.art/",
+    "mods": "https://www.nexusmods.com/skyrimspecialedition/",
+    "chess": "https://www.chess.com/play/online",
+    "type": "https://monkeytype.com/",
     "netflix": "https://www.netflix.com/",
     "youtube": "https://www.youtube.com/feed/subscriptions",
     "rock": "https://www.youtube.com/playlist?list=PLHEO1tE3LKpJ6b6MXsMQ8dI5NDJWoSmCT",
-    "chess": "https://www.chess.com/play/online",
-    "type": "https://monkeytype.com/",
-    "airt": "https://lexica.art/",
-    "mods": "https://www.nexusmods.com/skyrimspecialedition/mods/2187",
 }
 
 let div_link = document.createElement('div');
