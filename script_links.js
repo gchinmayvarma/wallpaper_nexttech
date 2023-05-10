@@ -3,6 +3,8 @@ let links = {
     "mail": "https://mail.google.com/mail/u/0/#inbox",
     "moodle": "https://wsdmoodle.waseda.jp/auth/saml2/login.php?wants=https%3A%2F%2Fwsdmoodle.waseda.jp%2F&idp=fcc52c5d2e034b1803ea1932ae2678b0&passive=off",
     "github": "https://github.com/gchinmayvarma?tab=repositories&type=source",
+    "sketchbook": "https://editor.p5js.org/Chinmay101202/sketches",
+    "p5js": "https://editor.p5js.org/",
     "notes": "https://keep.google.com/u/0/",
     "paint": "https://gchinmayvarma.github.io/sketchoff/",
     "cgpt": "https://chat.openai.com/",
@@ -14,6 +16,7 @@ let links = {
     "netflix": "https://www.netflix.com/",
     "youtube": "https://www.youtube.com/feed/subscriptions",
     "rock": "https://www.youtube.com/playlist?list=PLHEO1tE3LKpJ6b6MXsMQ8dI5NDJWoSmCT",
+    "translate": "https://translate.google.com/",
 }
 
 let div_link = document.createElement('div');
