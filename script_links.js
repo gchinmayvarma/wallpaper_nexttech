@@ -1,14 +1,27 @@
 let links = {
     "local": "http://localhost:5500/",
     "mail": "https://mail.google.com/mail/u/0/#inbox",
-    "moodle": "https://wsdmoodle.waseda.jp/auth/saml2/login.php?wants=https%3A%2F%2Fwsdmoodle.waseda.jp%2F&idp=fcc52c5d2e034b1803ea1932ae2678b0&passive=off",
+    // "moodle": "https://wsdmoodle.waseda.jp/auth/saml2/login.php?wants=https%3A%2F%2Fwsdmoodle.waseda.jp%2F&idp=fcc52c5d2e034b1803ea1932ae2678b0&passive=off",
+    // HAHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHHA
+    // HAHAHAHAHAHAHAHAHHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAAHAHAHAHHA
+    "cgpt": "https://chat.openai.com/",
     "github": "https://github.com/gchinmayvarma?tab=repositories&type=source",
+    "linkedin": "https://www.linkedin.com/feed/",
+    "play_console": "https://play.google.com/console/u/0/developers/6982748598545948984",
+    "paint": "https://gchinmayvarma.github.io/sketchoff/",
+    "notes": "https://keep.google.com/u/0/",
     "sketchbook": "https://editor.p5js.org/Chinmay101202/sketches",
     "p5js": "https://editor.p5js.org/",
-    "notes": "https://keep.google.com/u/0/",
-    "paint": "https://gchinmayvarma.github.io/sketchoff/",
-    "cgpt": "https://chat.openai.com/",
-    "linkedin": "https://www.linkedin.com/feed/",
     "airt": "https://lexica.art/",
     "mods": "https://www.nexusmods.com/skyrimspecialedition/",
     "chess": "https://www.chess.com/play/online",
