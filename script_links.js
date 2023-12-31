@@ -25,6 +25,7 @@ let links = {
     "airt": "https://lexica.art/",
     "mods": "https://www.nexusmods.com/skyrimspecialedition/",
     "chess": "https://www.chess.com/play/online",
+    "clock:": "https://gchinmayvarma.github.io/wallpaper_clock/",
     "type": "https://monkeytype.com/",
     "netflix": "https://www.netflix.com/",
     "youtube": "https://www.youtube.com/feed/subscriptions",
@@ -41,5 +42,27 @@ for (let key in links) {
     a.href = links[key];
     div_link.appendChild(a);
 }
+//append input field to div_link
+let input = document.createElement('input');
+input.id = "input_link";
+input.type = "text";
+input.placeholder = " URL://";
+input.autofocus = true;
+input.onkeydown = function (e) {
+    if (e.key == "Enter") {
+        let url = input.value;
+        if (url.startsWith("http://") || url.startsWith("https://")) {
+            window.location.href = url;
+        } else {
+            //google search the input value if it is not a url
+            window.location.href = "https://www.google.com/search?q=" + url;
+            
+        }
+    }
+}
+document.body.appendChild(input);
+//auto focus input field
+
+
 
 document.body.appendChild(div_link);
