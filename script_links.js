@@ -25,7 +25,7 @@ let links = {
     "airt": "https://lexica.art/",
     "mods": "https://www.nexusmods.com/skyrimspecialedition/",
     "chess": "https://www.chess.com/play/online",
-    "clock:": "https://gchinmayvarma.github.io/wallpaper_clock/",
+    "clock": "https://gchinmayvarma.github.io/wallpaper_clock/",
     "type": "https://monkeytype.com/",
     "netflix": "https://www.netflix.com/",
     "youtube": "https://www.youtube.com/feed/subscriptions",
@@ -37,32 +37,49 @@ let div_link = document.createElement('div');
 div_link.id = "div_link";
 for (let key in links) {
     let a = document.createElement('a');
-    let link = document.createTextNode(key);
+    let link = document.createTextNode(":" + key);
     a.appendChild(link);
     a.href = links[key];
     div_link.appendChild(a);
 }
-//append input field to div_link
+
+// <script async src="https://cse.google.com/cse.js?cx=2466d42c9a8674fc5">
+// </script>
+// <div class="gcse-search"></div>
+// AIzaSyCsDrBo-hPkhl3uu0zOo2Hs722TuJdtFj4
+
+const apiKey = 'AIzaSyCsDrBo-hPkhl3uu0zOo2Hs722TuJdtFj4';
+
+function getAutocomplete(query) {
+    // Make a request to Google Autocomplete API with API key
+    const apiUrl = `https://www.google.com/complete/search?q=${query}&client=chrome&key=${apiKey}`;
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            const suggestions = data[1];
+
+            // Log suggestions to the console
+            console.log("Suggestions:", suggestions);
+        })
+        .catch(error => console.error("Error fetching autocomplete data:", error));
+}
 let input = document.createElement('input');
 input.id = "input_link";
 input.type = "text";
 input.placeholder = " URL://";
 input.autofocus = true;
 input.onkeydown = function (e) {
+    getAutocomplete(input.value);
     if (e.key == "Enter") {
         let url = input.value;
         if (url.startsWith("http://") || url.startsWith("https://")) {
             window.location.href = url;
         } else {
-            //google search the input value if it is not a url
             window.location.href = "https://www.google.com/search?q=" + url;
-            
         }
     }
 }
 document.body.appendChild(input);
-//auto focus input field
-
-
 
 document.body.appendChild(div_link);
