@@ -7,27 +7,27 @@ function randint(min, max) {
 const PI = Math.PI;
 const TWO_PI = Math.PI * 2;
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js')
-    .then((registration) => {
-      console.log('Service Worker registered with scope:', registration.scope);
-    })
-    .catch((error) => {
-      console.error('Service Worker registration failed:', error);
-    });
-}
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('/service-worker.js')
+//     .then((registration) => {
+//       console.log('Service Worker registered with scope:', registration.scope);
+//     })
+//     .catch((error) => {
+//       console.error('Service Worker registration failed:', error);
+//     });
+// }
 
-function setFavicon() {
-  let favicon = document.getElementById('favicon');
-  if (navigator.onLine) {
-    favicon.href = '/stuff/online.png'; 
-  } else {
-    favicon.href = '/stuff/offline.png';
-  }
-  setTimeout(setFavicon,300)
-}
+// function setFavicon() {
+//   let favicon = document.getElementById('favicon');
+//   if (navigator.onLine) {
+//     favicon.href = '/stuff/online.png'; 
+//   } else {
+//     favicon.href = '/stuff/offline.png';
+//   }
+//   setTimeout(setFavicon,300)
+// }
 
-setFavicon();
+// setFavicon();
 
 function showTime() {
   let time = new Date();

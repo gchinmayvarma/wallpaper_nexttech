@@ -64,22 +64,23 @@ function getAutocomplete(query) {
         })
         .catch(error => console.error("Error fetching autocomplete data:", error));
 }
-let input = document.createElement('input');
-input.id = "input_link";
-input.type = "text";
-input.placeholder = " URL://";
-input.autofocus = true;
-input.onkeydown = function (e) {
-    getAutocomplete(input.value);
-    if (e.key == "Enter") {
-        let url = input.value;
-        if (url.startsWith("http://") || url.startsWith("https://")) {
-            window.location.href = url;
-        } else {
-            window.location.href = "https://www.google.com/search?q=" + url;
-        }
-    }
-}
-document.body.appendChild(input);
+// let input = document.createElement('input');
+// input.id = "input_link";
+// input.type = "text";
+// input.placeholder = " URL://";
+// input.autofocus = true;
+// input.classList.add("border");
+// input.onkeydown = function (e) {
+//     getAutocomplete(input.value);
+//     if (e.key == "Enter") {
+//         let url = input.value;
+//         if (url.startsWith("http://") || url.startsWith("https://")) {
+//             window.location.href = url;
+//         } else {
+//             window.location.href = "https://www.google.com/search?q=" + url;
+//         }
+//     }
+// }
+// // document.body.appendChild(input);
 
 document.body.appendChild(div_link);
