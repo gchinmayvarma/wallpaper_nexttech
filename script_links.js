@@ -15,6 +15,7 @@ let links = {
     // HAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHHA
     // HAHAHAHAHAHAHAHAHHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAAHAHAHAHHA
     "cgpt": "https://chat.openai.com/",
+    "perplexity": "https://www.perplexity.ai/",
     "github": "https://github.com/gchinmayvarma?tab=repositories&type=source",
     "linkedin": "https://www.linkedin.com/feed/",
     "play_console": "https://play.google.com/console/u/0/developers/6982748598545948984",
@@ -48,22 +49,22 @@ for (let key in links) {
 // <div class="gcse-search"></div>
 // AIzaSyCsDrBo-hPkhl3uu0zOo2Hs722TuJdtFj4
 
-const apiKey = 'AIzaSyCsDrBo-hPkhl3uu0zOo2Hs722TuJdtFj4';
+// const apiKey = 'AIzaSyCsDrBo-hPkhl3uu0zOo2Hs722TuJdtFj4';
 
-function getAutocomplete(query) {
-    // Make a request to Google Autocomplete API with API key
-    const apiUrl = `https://www.google.com/complete/search?q=${query}&client=chrome&key=${apiKey}`;
+// function getAutocomplete(query) {
+//     // Make a request to Google Autocomplete API with API key
+//     const apiUrl = `https://www.google.com/complete/search?q=${query}&client=chrome&key=${apiKey}`;
 
-    fetch(apiUrl)
-        .then(response => response.json())
-        .then(data => {
-            const suggestions = data[1];
+//     fetch(apiUrl)
+//         .then(response => response.json())
+//         .then(data => {
+//             const suggestions = data[1];
 
-            // Log suggestions to the console
-            console.log("Suggestions:", suggestions);
-        })
-        .catch(error => console.error("Error fetching autocomplete data:", error));
-}
+//             // Log suggestions to the console
+//             console.log("Suggestions:", suggestions);
+//         })
+//         .catch(error => console.error("Error fetching autocomplete data:", error));
+// }
 // let input = document.createElement('input');
 // input.id = "input_link";
 // input.type = "text";
@@ -83,4 +84,4 @@ function getAutocomplete(query) {
 // }
 // // document.body.appendChild(input);
 
-document.body.appendChild(div_link);
+// document.body.appendChild(div_link);
