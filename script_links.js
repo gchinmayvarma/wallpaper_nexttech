@@ -15,7 +15,7 @@ let links = {
     // HAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHHA
     // HAHAHAHAHAHAHAHAHHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAAHAHAHAHHA
     "cgpt": "https://chat.openai.com/",
-    "perplexity": "https://www.perplexity.ai/",
+    "perplex": "https://www.perplexity.ai/",
     "github": "https://github.com/gchinmayvarma?tab=repositories&type=source",
     "linkedin": "https://www.linkedin.com/feed/",
     "play_console": "https://play.google.com/console/u/0/developers/6982748598545948984",
@@ -84,4 +84,4 @@ for (let key in links) {
 // }
 // // document.body.appendChild(input);
 
-// document.body.appendChild(div_link);
+document.body.appendChild(div_link);
