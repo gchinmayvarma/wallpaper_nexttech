@@ -14,9 +14,10 @@ let links = {
     // HAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
     // HAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHHA
     // HAHAHAHAHAHAHAHAHHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAAHAHAHAHHA
+    "maps": "https://www.google.com/maps",
     "cgpt": "https://chat.openai.com/",
     "perplex": "https://www.perplexity.ai/",
-    "calander": "https://calendar.google.com/calendar/u/0/r",
+    "calendar": "https://calendar.google.com/calendar/u/0/r",
     "github": "https://github.com/gchinmayvarma?tab=repositories&type=source",
     "linkedin": "https://www.linkedin.com/feed/",
     "play_console": "https://play.google.com/console/u/0/developers/6982748598545948984",
