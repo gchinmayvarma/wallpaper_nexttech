@@ -16,6 +16,7 @@ let links = {
     // HAHAHAHAHAHAHAHAHHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAAHAHAHAHHA
     "cgpt": "https://chat.openai.com/",
     "perplex": "https://www.perplexity.ai/",
+    "calander": "https://calendar.google.com/calendar/u/0/r",
     "github": "https://github.com/gchinmayvarma?tab=repositories&type=source",
     "linkedin": "https://www.linkedin.com/feed/",
     "play_console": "https://play.google.com/console/u/0/developers/6982748598545948984",
