@@ -22,6 +22,7 @@ let links = {
     "linkedin": "https://www.linkedin.com/feed/",
     "play_console": "https://play.google.com/console/u/0/developers/6982748598545948984",
     "paint": "https://gchinmayvarma.github.io/sketchoff/",
+    "desmos": "https://www.desmos.com/calculator",
     "notes": "https://keep.google.com/u/0/",
     "sketchbook": "https://editor.p5js.org/Chinmay101202/sketches",
     "p5js": "https://editor.p5js.org/",
