@@ -248,14 +248,21 @@ a:hover {
     text-decoration: underline rgb(112, 0, 0);
 }
 
-#div_link {
+.div_linkbr {
     margin: 8px 0px;
-    position: absolute;
+}
+
+
+.div_link {
+    margin: 8px 0px;
+    /* position: absolute; */
     /* ensure that the text within this div is inside a flexbox covering maximum of 80% of the screen */
-    width: 80vw;
+    width: 76vw;
     display: flex;
     flex-wrap: wrap;
-
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 

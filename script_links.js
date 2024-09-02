@@ -1,4 +1,5 @@
 let links = {
+    "<br1>1  ": "<br>",
     "local": "http://localhost:5500/",
     "mail": "https://mail.google.com/mail/u/0/#inbox",
     // "moodle": "https://wsdmoodle.waseda.jp/auth/saml2/login.php?wants=https%3A%2F%2Fwsdmoodle.waseda.jp%2F&idp=fcc52c5d2e034b1803ea1932ae2678b0&passive=off",
@@ -19,6 +20,7 @@ let links = {
     "perplex": "https://www.perplexity.ai/",
     "calendar": "https://calendar.google.com/calendar/u/0/r",
     "github": "https://github.com/gchinmayvarma?tab=repositories&type=source",
+    "<br1>": "<br>",
     "linkedin": "https://www.linkedin.com/feed/",
     "play_console": "https://play.google.com/console/u/0/developers/6982748598545948984",
     "paint": "https://gchinmayvarma.github.io/sketchoff/",
@@ -27,6 +29,8 @@ let links = {
     "sketchbook": "https://editor.p5js.org/Chinmay101202/sketches",
     "p5js": "https://editor.p5js.org/",
     "airt": "https://lexica.art/",
+    "<br2>": "<br>",
+    "<br3>": "<br>",
     "mods": "https://www.nexusmods.com/skyrimspecialedition/",
     "chess": "https://www.chess.com/play/online",
     "clock": "https://gchinmayvarma.github.io/wallpaper_clock/",
@@ -37,15 +41,31 @@ let links = {
     "translate": "https://translate.google.com/",
 }
 
-let div_link = document.createElement('div');
-div_link.id = "div_link";
+let div_links = []; // Array to hold multiple divs
+let div_link = document.createElement('div'); // Initial div
+div_link.className  = "div_linkbr"; // Assign an ID to the div
+
 for (let key in links) {
+    if (links[key] === "<br>") {
+        // If the key is "<br>", push the current div to the array and create a new one
+        div_links.push(div_link); 
+        div_link = document.createElement('div'); // Create a new div for the next set of links
+        div_link.className = "div_link"; // Assign an ID to the div
+        continue;
+    }
     let a = document.createElement('a');
     let link = document.createTextNode(":" + key);
     a.appendChild(link);
     a.href = links[key];
     div_link.appendChild(a);
 }
+
+// Push the last div into the array if it has content
+if (div_link.childNodes.length > 0) {
+    div_links.push(div_link);
+}
+
+
 
 // <script async src="https://cse.google.com/cse.js?cx=2466d42c9a8674fc5">
 // </script>
@@ -87,4 +107,6 @@ for (let key in links) {
 // }
 // // document.body.appendChild(input);
 
-document.body.appendChild(div_link);
+div_links.forEach(function(div) {
+    document.body.appendChild(div);
+});
