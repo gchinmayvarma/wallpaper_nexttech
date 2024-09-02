@@ -1,4 +1,5 @@
-const image_paths = ["aaa.gif", "aaaaaa.gif", "gifgif.gif", "alto.gif", "source.gif", "round.gif", "testaltenor.gif"];
+// const image_paths = ["aaa.gif", "aaaaaa.gif", "gifgif.gif", "alto.gif", "source.gif", "round.gif", "testaltenor.gif"];
+const image_paths = ["Qu9f.gif", "aaaaaa.gif", "gifgif.gif", "alto.gif", "testaltenor.gif"];
 
 let div_particles_image = document.getElementById("particles_image");
 let particles_image = document.getElementsByClassName("particle_image");
