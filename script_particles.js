@@ -63,6 +63,8 @@ function particles_work() {
 setInterval(particles_work, 1000 / 60);
 // setInterval(particle_make_more, 10)
 for (let i = 0; i < 100 * 2; i++) {
-    setTimeout(particle_make_more, random(10, 100))
-    particle_make(random(80, 110));
+    setTimeout(particle_make_more, random(150, 10000))
+    particle_make(random(0, 100));
+    particle_make(random(0, 100));
+    particle_make(random(0, 100));
 }
