@@ -99,6 +99,7 @@ body {
     background-color: rgba(255, 255, 255, 0.235);
     width: 5px;
     height: 5px;
+    filter: blur(1px);
 }
 
 .particle_image {

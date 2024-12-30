@@ -1,7 +1,7 @@
 let div_particles = document.getElementById("particles");
 let particles = document.getElementsByClassName("particle");
 let particle_count = 0;
-let particle_max = 300;
+let particle_max = 250;
 
 function particle_make(ay) {
   if (particle_count > particle_max) return;
@@ -24,7 +24,7 @@ function particle_make(ay) {
   particle.custom.color_g = 255;
   particle.custom.color_b = 255;
   particle.custom.color_a = random(0, 1);
-  particle.custom.color_da = random(1, 5) / 100;
+  particle.custom.color_da = random(1, 5) / 150;
   if (random(0, 1) < 0.3) particle.custom.radius = random(0, 10);
   else particle.custom.radius = random(0, 5);
   particle.style.width = particle.style.height = particle.custom.radius + "px";
@@ -33,7 +33,7 @@ function particle_make(ay) {
 }
 
 function particle_make_start() {
-  particle_max = 100;
+  particle_max = 70;
   particle_make_more();
 }
 
