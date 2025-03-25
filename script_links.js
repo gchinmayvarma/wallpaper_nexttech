@@ -42,6 +42,8 @@ let links = {
   // "spotify": "https://open.spotify.com/",
   //   playlist1:
   // "https://www.youtube.com/playlist?list=PLHEO1tE3LKpJ6b6MXsMQ8dI5NDJWoSmCT",
+  // it keeps getting worse
+  // you fucking moron
 };
 
 let div_links = []; // Array to hold multiple divs
