@@ -42,7 +42,7 @@ let interval_count = 0;
 const interval = setInterval(() => {
   interval_count++;
   getRandomWord().then((word) => {
-    if (text_random_words.length < 200) {
+    if (text_random_words.length < 100) {
       text_random_words.push(word);
     }
   });
@@ -55,11 +55,11 @@ setTimeout(() => {
   // function repeatWithTimeout(count = 0, maxRuns = 15) {
   // if (count >= maxRuns) return;
   function repeatWithTimeout() {
-    setTimeout(() => repeatWithTimeout(), 150);
+    setTimeout(() => repeatWithTimeout(), 100);
     text_random_words.splice(1, 1);
   }
   repeatWithTimeout();
-}, 500);
+}, 1000);
 
 class raindrop {
   constructor() {
