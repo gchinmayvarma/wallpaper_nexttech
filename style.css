@@ -41,7 +41,7 @@ body {
     font-family: 'JetBrains Mono', 'Fira Code', monospace;
     display: flex;
     text-align: center;
-    align-items: baseline;
+    align-items: top;
     font-size: 6rem;
     margin: 0;
     padding: 0;
@@ -63,10 +63,21 @@ body {
     font-size: 20%;
 }
 
+
+#time_city {
+    font-size: 20%;
+}
+
+#am_pm2 {
+    font-size: 20%;
+    align-self: auto;
+    /* position: sticky; */
+}
+
 #am_pm {
     font-size: 20%;
     align-self: auto;
-    position: sticky;
+    /* position: sticky; */
 }
 
 #am_pm__time_s {
@@ -75,11 +86,18 @@ body {
     flex-direction: column;
 }
 
+#time_city {
+    position: absolute;
+    font-size: 20%;
+    top: 0px;
+    right: 220px;
+}
+
 #date {
     position: absolute;
     font-size: 20%;
     top: 110px;
-    right: 30px;
+    right: 0px;
 }
 
 .time_dh {
