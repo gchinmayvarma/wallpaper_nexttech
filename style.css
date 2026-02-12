@@ -65,9 +65,9 @@ body {
     box-sizing: border-box;
     position: absolute;
     /* top: 150px; */
-    right: 0%;
+    right: -70px;
     /* transform: translate(-50%, -50%); */
-    color: #909090;
+    color: #90909091;
 /* scale everything within this element to 0.5 */
 
     transform: scale(0.5);

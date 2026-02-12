@@ -1,6 +1,5 @@
 let links = {
   "<br1>1  ": "<br>",
-  local: "http://localhost:5500/",
   mail: "https://mail.google.com/mail/u/0/#inbox",
   // "moodle": "https://wsdmoodle.waseda.jp/auth/saml2/login.php?wants=https%3A%2F%2Fwsdmoodle.waseda.jp%2F&idp=fcc52c5d2e034b1803ea1932ae2678b0&passive=off",
   // HAHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHA
@@ -16,33 +15,50 @@ let links = {
   // HAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAHAHAHAHAHHA
   // HAHAHAHAHAHAHAHAHHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAAHAHAHAHHA
   maps: "https://www.google.com/maps",
+  calendar: "https://calendar.google.com/calendar/u/0/r",
   cgpt: "https://chat.openai.com/",
   perplex: "https://www.perplexity.ai/",
-  calendar: "https://calendar.google.com/calendar/u/0/r",
+  claude: "https://claude.ai/new",
+  gemini: "https://gemini.google.com/",
+  grok: "https://groq.com/console",
   "<br1>": "<br>",
+
   github: "https://github.com/gchinmayvarma?tab=repositories&type=source",
   sketchbook: "https://editor.p5js.org/Chinmay101202/sketches",
   p5js: "https://editor.p5js.org/",
-  notes: "https://keep.google.com/u/0/",
   linkedin: "https://www.linkedin.com/feed/",
-  play_console:
-    "https://play.google.com/console/u/0/developers/6982748598545948984",
+  gconsole:
+  "https://play.google.com/console/u/0/developers/6982748598545948984",
+  localhost: "http://localhost:5500/",
   "<br2>": "<br>",
-  clock: "https://gchinmayvarma.github.io/wallpaper_clock/",
-  paint: "https://gchinmayvarma.github.io/sketchoff/",
-  type: "https://monkeytype.com/",
-  desmos: "https://www.desmos.com/calculator",
+
+  typewriter: "https://monkeytype.com/",
+  market: "https://www.google.com/finance/beta?hl=en",
+  docs: "https://docs.google.com/document/u/0/",
+  notes: "https://keep.google.com/u/0/",
+  board: "https://gchinmayvarma.github.io/sketchoff/",
   translate: "https://translate.google.com/",
   "<br3>": "<br>",
   mods: "https://www.nexusmods.com/skyrimspecialedition/",
   chess: "https://www.chess.com/play/online",
-  airt: "https://lexica.art/",
+  lexica: "https://lexica.art/",
+  maxwell: "https://gchinmayvarma.github.io/mediapipe-Maxwells/",
+  clock: "https://gchinmayvarma.github.io/wallpaper_clock/",
+  desmos: "https://www.desmos.com/calculator",
   // netflix: "https://www.netflix.com/",
-  maxwells: "https://gchinmayvarma.github.io/mediapipe-Maxwells/",
-  "<br3>": "<br>",
+  "<br4>": "<br>",
+
   cell: "https://www.cell.com/cell/current",
   nature: "https://www.nature.com/nature/reviews-and-analysis",
   science: "https://www.science.org/toc/science/current",
+  pubmed: "https://pubmed.ncbi.nlm.nih.gov/trending/?holding=hulib",
+  "<br5>": "<br>",
+  
+  poetry: "https://www.poetryfoundation.org/poems",
+  books: "https://www.gutenberg.org/ebooks/bookshelf/60",
+  art: "https://openprocessing.org/discover/#/trending", 
+
+  "<br6>": "<br>",
   // ALL YOU DO IS type SUBS, y ou  FUCKING FUCK
   // PATHTEWTIC SAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   // you lost.
