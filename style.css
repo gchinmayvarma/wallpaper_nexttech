@@ -54,6 +54,17 @@ body {
     color: #ccccccbb;
 }
 
+#quote {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.382);
+    text-align: right;
+    padding: 5px;
+}
+
+
 .second_clock {
     font-family: 'JetBrains Mono', 'Fira Code', monospace;
     display: flex;

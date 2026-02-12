@@ -154,3 +154,23 @@ function showTime() {
 
 showTime(); setInterval(showTime, 1000);
 
+
+
+// get some random quote and display it in the div with id "quote", use the api quotable.io, get a random quote, and display the content and author in the div, format it like "quote content" - author
+
+
+function getQuote() {
+  fetch("https://api.quotable.io/random")
+    .then(response => response.json())
+    .then(data => {
+      const quoteDiv = document.getElementById("quote");
+      quoteDiv.innerHTML = `"${data.content}" - ${data.author}`;
+    })
+    .catch(error => {
+      console.error("Error fetching quote:", error);
+      const quoteDiv = document.getElementById("quote");
+      quoteDiv.innerHTML = "connected.";
+    });
+}
+
+getQuote();

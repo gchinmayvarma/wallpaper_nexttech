@@ -20,7 +20,7 @@ let links = {
   perplex: "https://www.perplexity.ai/",
   claude: "https://claude.ai/new",
   gemini: "https://gemini.google.com/",
-  grok: "https://groq.com/console",
+  grok: "https://grok.com/",
   "<br1>": "<br>",
 
   github: "https://github.com/gchinmayvarma?tab=repositories&type=source",
