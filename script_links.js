@@ -37,7 +37,22 @@ let links = {
   mods: "https://www.nexusmods.com/skyrimspecialedition/",
   chess: "https://www.chess.com/play/online",
   airt: "https://lexica.art/",
-  netflix: "https://www.netflix.com/",
+  // netflix: "https://www.netflix.com/",
+  maxwells: "https://gchinmayvarma.github.io/mediapipe-Maxwells/",
+  "<br3>": "<br>",
+  cell: "https://www.cell.com/cell/current",
+  nature: "https://www.nature.com/nature/reviews-and-analysis",
+  science: "https://www.science.org/toc/science/current",
+  // ALL YOU DO IS type SUBS, y ou  FUCKING FUCK
+  // PATHTEWTIC SAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  // you lost.
+  // you fought, you fell, and your weakness is pathetic
+  // you lost, disgusting, alone, depraved. You won on many things - true, and won most that most, but you
+  // FUCKING
+  // LOST/it
+  // pathetic/
+  // moron
+  // fucking pathetic
   // "youtube": "https://www.youtube.com/feed/subscriptions",
   // "spotify": "https://open.spotify.com/",
   //   playlist1:

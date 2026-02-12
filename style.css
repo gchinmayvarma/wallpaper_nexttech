@@ -51,49 +51,75 @@ body {
     right: 0%;
     /* transform: translate(-50%, -50%); */
 
-
+    color: #ccccccbb;
 }
 
-#time_m {
+.second_clock {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    display: flex;
+    text-align: center;
+    align-items: top;
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    /* top: 150px; */
+    right: 0%;
+    /* transform: translate(-50%, -50%); */
+    color: #909090;
+/* scale everything within this element to 0.5 */
+
+    transform: scale(0.5);
+}
+
+.time_m {
     font-stretch: 200%;
 
 }
 
-#time_s {
+.time_s {
     font-size: 20%;
 }
 
 
-#time_city {
+.time_city {
     font-size: 20%;
 }
 
-#am_pm2 {
-    font-size: 20%;
-    align-self: auto;
-    /* position: sticky; */
-}
-
-#am_pm {
+.am_pm2 {
     font-size: 20%;
     align-self: auto;
     /* position: sticky; */
 }
 
-#am_pm__time_s {
+.am_pm {
+    font-size: 20%;
+    align-self: auto;
+    /* position: sticky; */
+}
+
+.am_pm__time_s {
     /* a flexbox column */
     display: flex;
     flex-direction: column;
 }
 
-#time_city {
+.time_city {
     position: absolute;
     font-size: 20%;
     top: 0px;
     right: 220px;
 }
 
-#date {
+.time_city_ex {
+    position: absolute;
+    font-size: 40%;
+    top: -25px;
+    right: 5px;
+}
+
+.date {
     position: absolute;
     font-size: 20%;
     top: 110px;

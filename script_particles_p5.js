@@ -13,11 +13,11 @@ function setup() {
 
   //   canvas.style("filter", "blur(1px)");
 
-  for (let i = 100; i >= 0; --i) {
+  for (let i = 600; i >= 0; --i) {
     p.push(new raindrop());
   }
   for (let i = p.length - 1; i >= p.length / 2; --i) {
-    p[i].y = random(height / 1.5);
+    p[i].y = random(height*0.8);
   }
   textAlign(CENTER, CENTER);
 }
@@ -63,7 +63,7 @@ setTimeout(() => {
 
 class raindrop {
   constructor() {
-    this.x = random(width * 1.5);
+    this.x = random(width * 1.1);
     this.y = 0;
     this.dx = -0.3;
     this.dy = 1;
