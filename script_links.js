@@ -51,6 +51,7 @@ let links = {
   cell: "https://www.cell.com/cell/current",
   nature: "https://www.nature.com/nature/reviews-and-analysis",
   science: "https://www.science.org/toc/science/current",
+  hf: "https://huggingface.co/papers/",
   pubmed: "https://pubmed.ncbi.nlm.nih.gov/trending/?holding=hulib",
   "<br5>": "<br>",
   
