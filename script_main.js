@@ -141,11 +141,12 @@ function renderClock(cityName, timeZone, clock_id, showDate = false) {
 function showTime() {
   renderClock("Boston", null, 0, true);
   // renderClock("Boston", "America/New_York", 0, true);
-  // renderClock("Tokyo", "Asia/Tokyo", 1, true);
-  renderClock("Sydney", "Australia/Sydney", 1, true);
-  renderClock("Hyderabad", "Asia/Kolkata", 2, true);
-  // renderClock("London", "Europe/London", 4, true);
-  renderClock("Los Angeles", "America/Los_Angeles", 3, true);
+  renderClock("Tokyo", "Asia/Tokyo", 1, true);
+  renderClock("Sydney", "Australia/Sydney", 2, true);
+  renderClock("Hyderabad", "Asia/Kolkata", 3, true);
+  renderClock("London", "Europe/London", 4, true);
+  renderClock("Los Angeles", "America/Los_Angeles", 5, true);
+  renderClock("New York", "America/New_York", 6, true);
 }
 
 
