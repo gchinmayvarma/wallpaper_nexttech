@@ -19,7 +19,8 @@ let links = {
   cgpt: "https://chat.openai.com/",
   perplex: "https://www.perplexity.ai/",
   claude: "https://claude.ai/new",
-  gemini: "https://gemini.google.com/",
+  // gemini: "https://gemini.google.com/",
+  gemini: "https://gemini.google.com/u/1/app?pageId=none",
   grok: "https://grok.com/",
   "<br1>": "<br>",
 

@@ -175,3 +175,35 @@ function getQuote() {
 }
 
 getQuote();
+
+// Randomize glitch parameters on #clock for a more organic effect
+function startClockGlitch() {
+  const el = document.getElementById('clock') || document.querySelector('#clock');
+  if (!el) return;
+
+  function poke() {
+    // sometimes do a burst, sometimes remain still
+    const burst = Math.random() < 0.45;
+    if (burst) {
+      const tx = randint(-20, 20);
+      const durMs = randint(80, 1200); // short burst durations
+      const dur = (durMs / 1000).toFixed(2) + 's';
+      const delay = (Math.random() * 0.25).toFixed(2) + 's';
+      el.style.setProperty('--glitch-translate', tx + 'px');
+      el.style.setProperty('--glitch-duration', dur);
+      el.style.setProperty('--glitch-delay', delay);
+    } else {
+      // calm state
+      el.style.setProperty('--glitch-translate', '0px');
+      el.style.setProperty('--glitch-duration', '2s');
+      el.style.setProperty('--glitch-delay', '0s');
+    }
+
+    // schedule next poke at a random interval
+    setTimeout(poke, randint(120, 2500));
+  }
+
+  poke();
+}
+
+startClockGlitch();
