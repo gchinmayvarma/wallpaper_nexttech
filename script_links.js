@@ -16,39 +16,40 @@ let links = {
   // HAHAHAHAHAHAHAHAHHHAHAHAHAHAHAHAHAHHAHAHAHAHHA// HAHAHAHAHAHAHAHAHHAHAHAHAHHAAHAHAHAHHA
   maps: "https://www.google.com/maps",
   calendar: "https://calendar.google.com/calendar/u/0/r",
-  cgpt: "https://chat.openai.com/",
-  perplex: "https://www.perplexity.ai/",
-  claude: "https://claude.ai/new",
-  // gemini: "https://gemini.google.com/",
-  gemini: "https://gemini.google.com/u/1/app?pageId=none",
-  grok: "https://grok.com/",
+  drive: "https://drive.google.com/drive/u/0/my-drive",
+  docs: "https://docs.google.com/document/u/0/",
+  notes: "https://keep.google.com/u/0/",
+  translate: "https://translate.google.com/",
   "<br1>": "<br>",
-
+  
   github: "https://github.com/gchinmayvarma?tab=repositories&type=source",
+  linkedin: "https://www.linkedin.com/feed/",
   sketchbook: "https://editor.p5js.org/Chinmay101202/sketches",
   p5js: "https://editor.p5js.org/",
-  linkedin: "https://www.linkedin.com/feed/",
   gconsole:
   "https://play.google.com/console/u/0/developers/6982748598545948984",
   localhost: "http://localhost:5500/",
   "<br2>": "<br>",
-
-  typewriter: "https://monkeytype.com/",
-  market: "https://www.google.com/finance/beta?hl=en",
-  docs: "https://docs.google.com/document/u/0/",
-  notes: "https://keep.google.com/u/0/",
-  board: "https://gchinmayvarma.github.io/sketchoff/",
-  translate: "https://translate.google.com/",
-  "<br3>": "<br>",
-  mods: "https://www.nexusmods.com/skyrimspecialedition/",
-  chess: "https://www.chess.com/play/online",
+  
+  cgpt: "https://chat.openai.com/",
+  gemini: "https://gemini.google.com/u/1/app?pageId=none",
+  claude: "https://claude.ai/new",
+  // gemini: "https://gemini.google.com/",
+  grok: "https://grok.com/",
+  perplex: "https://www.perplexity.ai/",
   lexica: "https://lexica.art/",
+  
+  "<br3>": "<br>",
+  market: "https://www.google.com/finance/beta?hl=en",
+  typewriter: "https://monkeytype.com/",
+  // "<br4>": "<br>",
+  desmos: "https://www.desmos.com/calculator",
+  mods: "https://www.nexusmods.com/skyrimspecialedition/",
   maxwell: "https://gchinmayvarma.github.io/mediapipe-Maxwells/",
   clock: "https://gchinmayvarma.github.io/wallpaper_clock/",
-  desmos: "https://www.desmos.com/calculator",
   // netflix: "https://www.netflix.com/",
   "<br4>": "<br>",
-
+  
   cell: "https://www.cell.com/cell/current",
   nature: "https://www.nature.com/nature/reviews-and-analysis",
   science: "https://www.science.org/toc/science/current",
@@ -59,8 +60,13 @@ let links = {
   poetry: "https://www.poetryfoundation.org/poems",
   books: "https://www.gutenberg.org/ebooks/bookshelf/60",
   art: "https://openprocessing.org/discover/#/trending", 
+  board: "https://gchinmayvarma.github.io/sketchoff/",
+  chess: "https://www.chess.com/play/online",
+  
+  "<br7>": "<br>",
+  // "spotify": "https://open.spotify.com/",
+  "visualizer" : "https://vizz.fm/app/?preset=Y29uZmlnLTE3NDA4ODQ4MTMwMzQtNjYw",
 
-  "<br6>": "<br>",
   // ALL YOU DO IS type SUBS, y ou  FUCKING FUCK
   // PATHTEWTIC SAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   // you lost.
@@ -72,7 +78,6 @@ let links = {
   // moron
   // fucking pathetic
   // "youtube": "https://www.youtube.com/feed/subscriptions",
-  // "spotify": "https://open.spotify.com/",
   //   playlist1:
   // "https://www.youtube.com/playlist?list=PLHEO1tE3LKpJ6b6MXsMQ8dI5NDJWoSmCT",
   // it keeps getting worse
