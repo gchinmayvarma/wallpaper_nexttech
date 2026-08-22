@@ -38,6 +38,7 @@ let links = {
   grok: "https://grok.com/",
   perplex: "https://www.perplexity.ai/",
   lexica: "https://lexica.art/",
+  board: "https://gchinmayvarma.github.io/sketchoff/",
   
   "<br3>": "<br>",
   market: "https://www.google.com/finance/beta?hl=en",
@@ -60,12 +61,11 @@ let links = {
   poetry: "https://www.poetryfoundation.org/poems",
   books: "https://www.gutenberg.org/ebooks/bookshelf/60",
   art: "https://openprocessing.org/discover/#/trending", 
-  board: "https://gchinmayvarma.github.io/sketchoff/",
   chess: "https://www.chess.com/play/online",
   
   "<br7>": "<br>",
-  // "spotify": "https://open.spotify.com/",
   "visualizer" : "https://vizz.fm/app/?preset=Y29uZmlnLTE3NDA4ODQ4MTMwMzQtNjYw",
+  "spotify": "https://open.spotify.com/",
 
   // ALL YOU DO IS type SUBS, y ou  FUCKING FUCK
   // PATHTEWTIC SAAAAAAAAAAAAAAAAAAAAAAAAAAAA
